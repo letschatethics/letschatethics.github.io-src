@@ -98,9 +98,10 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('Twitter', 'https://twitter.com/LetsChatEthics'),
           ('Instagram', 'https://www.instagram.com/lets.chat.ethics/'),
-          ('LinkedIn', 'https://www.linkedin.com/company/letschatethics/'),)
+          ('LinkedIn', 'https://www.linkedin.com/company/letschatethics/'),
+          ('youtube', 'https://www.youtube.com/channel/UCmNiaM-czvVCiDBNzxQbKOg'))
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 3
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
