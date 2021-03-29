@@ -30,7 +30,7 @@ ABOUT = {
   'mail': 'letschatethics@gmail.com',
   # keep it a string if you dont need multiple languages
   'text': {
-    'en': 'Drop us a message.',
+    'en': 'We always look forward to hearing from our listeners. Got something to discuss?',
   },
   'link': 'contact.html',
   # the address is also taken for google maps
@@ -53,20 +53,25 @@ LOCALE = 'en_UK'
 
 
 # navigation and homepage options
-DISPLAY_PAGES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = False
 DISPLAY_PAGES_ON_HOME = False
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_TAGS_ON_MENU = False
-USE_FOLDER_AS_CATEGORY = True
-PAGE_ORDER_BY = 'order'
+USE_FOLDER_AS_CATEGORY = False
+#PAGE_ORDER_BY = 'order'
 
 MENUITEMS = [
-  #('Archive', 'archives.html'),
+  #('Home', 'index.html'),
+  ('About', 'pages/about.html'),
+  ('Podcast', 'podcast.html'),
+  ('Recommended Books', 'pages/recommended-books.html'),
+  ('Support the podcast', 'pages/support-the-podcast.html'),
   ('Contact', 'contact.html')
 ]
 
 DIRECT_TEMPLATES = [
   'index',
+  'podcast',
   'tags',
   'categories',
   'authors',
