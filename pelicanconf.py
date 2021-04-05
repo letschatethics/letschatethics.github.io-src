@@ -28,7 +28,7 @@ FAVICON = '/images/logo.png'
 DEFAULT_LANG = 'en'
 
 ABOUT = {
-  'image': '/images/orianda.png',
+  'image': '/images/orianda.jpeg',
   'mail': 'Get in touch with us.',
   # keep it a string if you dont need multiple languages
   'text': {
