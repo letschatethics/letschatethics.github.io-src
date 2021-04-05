@@ -21,13 +21,15 @@ JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
 }
 
+OUTPUT_PATH = '/Users/amandacurry/Documents/letschatethics.github.io'
+
 LOGO = '/images/logo.png'
 FAVICON = '/images/logo.png'
 DEFAULT_LANG = 'en'
 
 ABOUT = {
   'image': '/images/orianda.png',
-  'mail': 'letschatethics@gmail.com',
+  'mail': 'Get in touch with us.',
   # keep it a string if you dont need multiple languages
   'text': {
     'en': 'We always look forward to hearing from our listeners. Got something to discuss?',
@@ -63,7 +65,7 @@ USE_FOLDER_AS_CATEGORY = False
 MENUITEMS = [
   #('Home', 'index.html'),
   ('About', 'pages/about.html'),
-  ('Podcast', 'podcast.html'),
+  #('Podcast', 'podcast.html'),
   ('Recommended Books', 'pages/recommended-books.html'),
   ('Support the podcast', 'pages/support-the-podcast.html'),
   ('Contact', 'contact.html')
@@ -71,7 +73,7 @@ MENUITEMS = [
 
 DIRECT_TEMPLATES = [
   'index',
-  'podcast',
+  #'podcast',
   'tags',
   'categories',
   'authors',
@@ -101,7 +103,7 @@ SOCIAL = (('Twitter', 'https://twitter.com/LetsChatEthics'),
           ('LinkedIn', 'https://www.linkedin.com/company/letschatethics/'),
           ('youtube', 'https://www.youtube.com/channel/UCmNiaM-czvVCiDBNzxQbKOg'))
 
-DEFAULT_PAGINATION = 3
+DEFAULT_PAGINATION = 30
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
